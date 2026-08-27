@@ -1,0 +1,85 @@
+PLACEMENT SCHEDULE ANALYSIS
+======================================================================
+
+Total interviews: 586
+Students scheduled: 260
+Companies involved: 35
+Rooms used: 20
+
+INTERVIEWS PER DAY
+day
+Day 1    150
+Day 2    170
+Day 3    132
+Day 4    134
+
+INTERVIEWS PER COMPANY
+company_id
+C035    44
+C023    34
+C018    32
+C015    32
+C034    30
+C030    30
+C016    28
+C031    28
+C004    26
+C022    24
+C027    22
+C003    20
+C002    16
+C006    16
+C024    15
+C013    15
+C033    14
+C007    14
+C011    14
+C025    14
+C012    12
+C014    11
+C026    10
+C019    10
+C010     9
+C005     9
+C009     9
+C017     8
+C001     7
+C028     7
+C029     7
+C032     6
+C020     6
+C008     4
+C021     3
+
+INTERVIEWS PER ROOM
+room_id
+R05    54
+R03    53
+R06    51
+R02    51
+R01    48
+R04    47
+R07    46
+R08    46
+R09    39
+R10    36
+R11    30
+R12    23
+R13    19
+R14    15
+R15    12
+R17     5
+R16     4
+R18     4
+R20     2
+R19     1
+
+INTERVIEW DURATION
+count    586.000000
+mean      38.626280
+std       12.422007
+min       30.000000
+25%       30.000000
+50%       30.000000
+75%       45.000000
+max       60.000000

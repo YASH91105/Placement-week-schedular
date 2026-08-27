@@ -2,7 +2,7 @@
 
 An optimization-based interview scheduling system built with Python, Pandas, Google OR-Tools CP-SAT, and Streamlit.
 
-The system generates an interview schedule for a placement week while considering student availability, company availability, interview durations, room capacity, and scheduling conflicts.
+The system generates an interview schedule for a placement week while considering student availability, company availability, interview durations, rooms, and scheduling conflicts.
 
 ---
 
@@ -57,6 +57,7 @@ the system determines which interviews can be scheduled and assigns valid time s
 - Room utilization analysis
 - Interview duration analysis
 - Student interview statistics
+- Company analytics
 
 ---
 
@@ -78,13 +79,13 @@ the system determines which interviews can be scheduled and assigns valid time s
 
 The scheduler uses **Google OR-Tools CP-SAT** to model the placement scheduling problem as a constraint optimization problem.
 
-The system first identifies possible student-company interviews.
+The system first identifies possible student-company interview combinations.
 
 For the current dataset:
 
 ```text
 Companies:           35
 Students:            800
-Rooms:               20
+Rooms:                20
 Availability slots:  70
 Possible interviews: 3023
